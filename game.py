@@ -12,6 +12,7 @@ class Paddle(pygame.Rect):
 
     def Move(self, yDir):
         self.y += yDir * self.speed
+        print("Working.")
 
 
 def Update():
